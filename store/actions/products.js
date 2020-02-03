@@ -9,7 +9,7 @@ export const deleteProduct = productId => {
 export const createProduct = (title, description, imageUrl, price) => {
   return async dispatch => {
     // any async code you want!
-    const response = await fetch('https://rn-complete-guide.firebaseio.com/products.json', {
+    const response = await fetch('', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
